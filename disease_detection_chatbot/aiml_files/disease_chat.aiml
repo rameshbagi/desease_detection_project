@@ -1,0 +1,29 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>FEVER</pattern>
+    <template>
+      You might be experiencing fever. Common causes include infections. Please drink plenty of fluids and rest.
+    </template>
+  </category>
+
+  <category>
+    <pattern>COUGH</pattern>
+    <template>
+      A cough could be caused by a cold, flu, or other respiratory issues. Consider consulting a doctor if it persists.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HEADACHE</pattern>
+    <template>
+      Headaches are common and can be caused by stress, dehydration, or other factors. Try resting and drinking water.
+    </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <template>
+      Sorry, I couldn't recognize that symptom. Please try describing it in a different way.
+    </template>
+  </category>
+</aiml>
